@@ -6,7 +6,6 @@ from telebot import types
 bot=telebot.TeleBot(token='TOKEN')
 con=sqlite3.connect('date.db')
 curs=con.cursor()
-#api.telegram.org/bot2026612503:AAHalelnV_FePFUlYrdmOgO_nDCUAztx9B8/getUpdates
 curs.execute("""CREATE TABLE IF NOT EXISTS users(
 id TEXT,
 sts TEXT,
