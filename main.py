@@ -3,7 +3,7 @@ import sqlite3
 import time
 from telebot import types
 
-bot=telebot.TeleBot(token='2066902261:AAEO3ktvWMcVPsjRvVLHvDJEY24qgXAefns')
+bot=telebot.TeleBot(token='TOKEN')
 con=sqlite3.connect('date.db')
 curs=con.cursor()
 #api.telegram.org/bot2026612503:AAHalelnV_FePFUlYrdmOgO_nDCUAztx9B8/getUpdates
